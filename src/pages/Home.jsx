@@ -2,25 +2,16 @@ import React from "react";
 import { Link } from "react-router-dom";
 const Home = () => {
   return (
-    <div className="dhiwise-navigation">
+    <div className="elliot-navigation">
       <ul style={{display:"flex"}}>
         <li>
-          <Link to="/dashboard">Dashboard</Link>
+          <Link to="/dashboard">Movies</Link>
         </li>
         <li>
-          <Link to="/blogpage">BlogPage</Link>
+          <Link to="/blogpage">About Us</Link>
         </li>
         <li>
-          <Link to="/devtoprofile">DevtoProfile</Link>
-        </li>
-        <li>
-          <Link to="/mediumprofile">MediumProfile</Link>
-        </li>
-        <li>
-          <Link to="/writeonmedium">Writeonmedium</Link>
-        </li>
-        <li>
-          <Link to="/writeondevto">Writeondevto</Link>
+          <Link to="/writeonmedium">Feedback</Link>
         </li>
       </ul>
     </div>

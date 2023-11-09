@@ -17,26 +17,26 @@ const DashboardPage = () => {
 
   return (
     <>
-      <div className="bg-white-A700 flex flex-col font-gilroy sm:gap-10 md:gap-10 gap-[120px] items-center justify-start mx-auto w-full">
+      <div className="bg-slate-900 flex flex-col font-gilroy sm:gap-10 md:gap-10 gap-[120px] items-center justify-start mx-auto w-full ">
         <div className="h-[1286px] md:h-[1724px] sm:h-[3379px] md:px-5 relative w-full">
-          <div className="absolute bg-white-A700 bottom-[0] flex flex-col items-center justify-start p-8 sm:px-5 right-[0] w-4/5">
+          <div className="absolute bg-slate-900 bottom-[0] flex flex-col items-center justify-start p-8 sm:px-5 right-[0] w-4/5">
             <div className="flex flex-col items-center justify-start mb-[35px] mt-2.5 w-full">
               <div className="md:gap-5 gap-6 grid sm:grid-cols-1 md:grid-cols-2 grid-cols-3 justify-center min-h-[auto] w-full">
-                <div className="bg-white-A700 border border-blue_gray-200 border-solid flex flex-1 flex-col gap-4 h-[533px] md:h-auto items-end justify-start p-2.5 rounded-[23px] w-full">
+                <div className="bg-slate-900 border md:mt-5 border-blue_gray-200 border-solid flex flex-1 flex-col gap-4 h-[533px] md:h-auto items-end justify-start p-2.5 rounded-[23px] w-full">
                   <Img
                     className="h-[265px] sm:h-auto object-cover rounded-[12px] w-full"
-                    src="images/img_placeholder.png"
+                    src="images/c-america.avif"
                     alt="placeholder"
                   />
                   <div className="flex flex-col gap-4 items-start justify-start w-auto">
                     <Text
-                      className="leading-[29.00px] max-w-[323px] md:max-w-full text-gray-900 text-lg"
+                      className="leading-[29.00px] max-w-[323px] md:max-w-full text-slate-100 text-lg"
                       size="txtGilroyBold18"
                     >
-                      How to create a UX Writing portfolio as a beginner
+                      Captain America and Iron Man
                     </Text>
                     <Text
-                      className="leading-[26.00px] max-w-[323px] md:max-w-full text-base text-gray-900"
+                      className="leading-[26.00px] max-w-[323px] md:max-w-full text-base text-slate-100"
                       size="txtGilroyRegular16"
                     >
                       The film rolls back the clock through Nike’s past as the
@@ -54,40 +54,39 @@ const DashboardPage = () => {
                         />
                       </div>
                       <Text
-                        className="text-blue_gray-700 text-sm w-auto"
+                        className="text-slate-100 text-sm w-auto"
                         size="txtGilroyMedium14"
                       >
                         Jane Phillips
                       </Text>
                     </div>
                     <Text
-                      className="text-blue_gray-700 text-right text-sm w-auto"
+                      className="text-slate-100 text-right text-sm w-auto"
                       size="txtGilroyMedium14"
                     >
                       22nd June, 2022
                     </Text>
                   </div>
                 </div>
-                <div className="bg-white-A700 border border-blue_gray-200 border-solid flex flex-1 flex-col gap-4 h-[533px] md:h-auto items-end justify-start p-2.5 rounded-[23px] w-full">
+                <div className="bg-slate-900 border border-blue_gray-200 border-solid flex flex-1 flex-col gap-4 h-[533px] md:h-auto items-end justify-start p-2.5 rounded-[23px] w-full">
                   <Img
                     className="h-[265px] sm:h-auto object-cover rounded-[12px] w-full"
-                    src="images/img_placeholder_265x323.png"
+                    src="images/5-apart.jpg"
                     alt="placeholder"
                   />
                   <div className="flex flex-col gap-4 items-start justify-start w-auto">
                     <Text
-                      className="leading-[33.00px] max-w-[323px] md:max-w-full text-gray-900 text-xl"
+                      className="leading-[33.00px] max-w-[323px] md:max-w-full text-slate-100 text-xl"
                       size="txtGilroyBold20"
                     >
-                      <>How Snapchat and Netflix Break UX Design Principles</>
+                      <>Five Feet Apart</>
                     </Text>
                     <Text
-                      className="leading-[26.00px] max-w-[323px] md:max-w-full text-base text-gray-900"
+                      className="leading-[26.00px] max-w-[323px] md:max-w-full text-base text-slate-100"
                       size="txtGilroyRegular16"
                     >
-                      The film rolls back the clock through Nike’s past as the
-                      company expands sport for a new generation over the next
-                      half century.
+                      Stella and Will, both cystic fibrosis patients, develop an unlikely relationship despite the threat of cross-infection. 
+                      However, they do away with their restrictions to experience togetherness
                     </Text>
                   </div>
                   <div className="flex flex-row gap-2 items-center justify-between w-[323px]">
@@ -100,40 +99,39 @@ const DashboardPage = () => {
                         />
                       </div>
                       <Text
-                        className="text-blue_gray-700 text-sm w-auto"
+                        className="text-slate-100 text-sm w-auto"
                         size="txtGilroyMedium14"
                       >
                         Wade John
                       </Text>
                     </div>
                     <Text
-                      className="text-blue_gray-700 text-right text-sm w-auto"
+                      className="text-slate-100 text-right text-sm w-auto"
                       size="txtGilroyMedium14"
                     >
                       22nd June, 2022
                     </Text>
                   </div>
                 </div>
-                <div className="bg-white-A700 border border-blue_gray-200 border-solid flex flex-1 flex-col gap-4 h-[533px] md:h-auto items-end justify-start p-2.5 rounded-[23px] w-full">
+                <div className="bg-slate-900 border border-blue_gray-200 border-solid flex flex-1 flex-col gap-4 h-[533px] md:h-auto items-end justify-start p-2.5 rounded-[23px] w-full">
                   <Img
                     className="h-[265px] sm:h-auto object-cover rounded-[12px] w-full"
-                    src="images/img_placeholder_1.png"
+                    src="images/edge.avif"
                     alt="placeholder"
                   />
                   <div className="flex flex-col gap-4 items-start justify-start w-auto">
                     <Text
-                      className="leading-[33.00px] max-w-[323px] md:max-w-full text-gray-900 text-xl"
+                      className="leading-[33.00px] max-w-[323px] md:max-w-full text-slate-100 text-xl"
                       size="txtGilroyBold20"
                     >
-                      How Do You Overcome Imposter Syndrome?
+                     Edge Of Tomorrow
                     </Text>
                     <Text
-                      className="leading-[26.00px] max-w-[323px] md:max-w-full text-base text-gray-900"
+                      className="leading-[26.00px] max-w-[323px] md:max-w-full text-base text-slate-100"
                       size="txtGilroyRegular16"
                     >
-                      The film rolls back the clock through Nike’s past as the
-                      company expands sport for a new generation over the next
-                      half century.
+                     After the alien forces launch an attack on Earth and threaten to wipe out the human race, Captain Cage, 
+                     who is trapped in a time loop, teams up with a warrior to save the planet.
                     </Text>
                   </div>
                   <div className="flex flex-row gap-2 items-center justify-between w-[323px]">
@@ -146,40 +144,39 @@ const DashboardPage = () => {
                         />
                       </div>
                       <Text
-                        className="text-blue_gray-700 text-sm w-auto"
+                        className="text-slate-100 text-sm w-auto"
                         size="txtGilroyMedium14"
                       >
                         Jack Amber
                       </Text>
                     </div>
                     <Text
-                      className="text-blue_gray-700 text-right text-sm w-auto"
+                      className="text-slate-100 text-right text-sm w-auto"
                       size="txtGilroyMedium14"
                     >
                       22nd June, 2022
                     </Text>
                   </div>
                 </div>
-                <div className="bg-white-A700 border border-blue_gray-200 border-solid flex flex-1 flex-col gap-4 h-[533px] md:h-auto items-end justify-start p-2.5 rounded-[23px] w-full">
+                <div className="bg-slate-900 border border-blue_gray-200 border-solid flex flex-1 flex-col gap-4 h-[533px] md:h-auto items-end justify-start p-2.5 rounded-[23px] w-full">
                   <Img
                     className="h-[265px] sm:h-auto object-cover rounded-[12px] w-full"
-                    src="images/img_placeholder.png"
+                    src="images/inter.avif"
                     alt="placeholder"
                   />
                   <div className="flex flex-col gap-4 items-start justify-start w-auto">
                     <Text
-                      className="leading-[33.00px] max-w-[323px] md:max-w-full text-gray-900 text-xl"
+                      className="leading-[33.00px] max-w-[323px] md:max-w-full text-slate-100 text-xl"
                       size="txtGilroyBold20"
                     >
-                      How to create a UX Writing portfolio as a beginner
+                      Interstellar
                     </Text>
                     <Text
-                      className="leading-[26.00px] max-w-[323px] md:max-w-full text-base text-gray-900"
+                      className="leading-[26.00px] max-w-[323px] md:max-w-full text-base text-slate-100"
                       size="txtGilroyRegular16"
                     >
-                      The film rolls back the clock through Nike’s past as the
-                      company expands sport for a new generation over the next
-                      half century.
+                      When Earth becomes uninhabitable in the future, a farmer and ex-NASA pilot, Joseph Cooper, is tasked to pilot a spacecraft, 
+                      along with a team of researchers, to find a new planet for humans.
                     </Text>
                   </div>
                   <div className="flex flex-row gap-2 items-center justify-between w-[323px]">
@@ -192,40 +189,39 @@ const DashboardPage = () => {
                         />
                       </div>
                       <Text
-                        className="text-blue_gray-700 text-sm w-auto"
+                        className="text-slate-100 text-sm w-auto"
                         size="txtGilroyMedium14"
                       >
                         Jane Phillips
                       </Text>
                     </div>
                     <Text
-                      className="text-blue_gray-700 text-right text-sm w-auto"
+                      className="text-slate-100 text-right text-sm w-auto"
                       size="txtGilroyMedium14"
                     >
                       22nd June, 2022
                     </Text>
                   </div>
                 </div>
-                <div className="bg-white-A700 border border-blue_gray-200 border-solid flex flex-1 flex-col gap-4 h-[533px] md:h-auto items-end justify-start p-2.5 rounded-[23px] w-full">
+                <div className="bg-slate-900 border border-blue_gray-200 border-solid flex flex-1 flex-col gap-4 h-[533px] md:h-auto items-end justify-start p-2.5 rounded-[23px] w-full">
                   <Img
                     className="h-[265px] sm:h-auto object-cover rounded-[12px] w-full"
-                    src="images/img_placeholder_265x323.png"
+                    src="images/maze.jpg"
                     alt="placeholder"
                   />
                   <div className="flex flex-col gap-4 items-start justify-start w-auto">
                     <Text
-                      className="leading-[33.00px] max-w-[323px] md:max-w-full text-gray-900 text-xl"
+                      className="leading-[33.00px] max-w-[323px] md:max-w-full text-slate-100 text-xl"
                       size="txtGilroyBold20"
                     >
-                      <>How Snapchat and Netflix Break UX Design Principles</>
+                      <>Maze Runner</>
                     </Text>
                     <Text
-                      className="leading-[26.00px] max-w-[323px] md:max-w-full text-base text-gray-900"
+                      className="leading-[26.00px] max-w-[323px] md:max-w-full text-base text-slate-100"
                       size="txtGilroyRegular16"
                     >
-                      The film rolls back the clock through Nike’s past as the
-                      company expands sport for a new generation over the next
-                      half century.
+                     Maze Runner is a North American film trilogy, 
+                     consisting of science-fiction dystopian action adventure films based on The Maze Runner novels by the American author James Dashner.
                     </Text>
                   </div>
                   <div className="flex flex-row gap-2 items-center justify-between w-[323px]">
@@ -238,40 +234,39 @@ const DashboardPage = () => {
                         />
                       </div>
                       <Text
-                        className="text-blue_gray-700 text-sm w-auto"
+                        className="text-slate-100 text-sm w-auto"
                         size="txtGilroyMedium14"
                       >
                         Wade John
                       </Text>
                     </div>
                     <Text
-                      className="text-blue_gray-700 text-right text-sm w-auto"
+                      className="text-slate-100 text-right text-sm w-auto"
                       size="txtGilroyMedium14"
                     >
                       22nd June, 2022
                     </Text>
                   </div>
                 </div>
-                <div className="bg-white-A700 border border-blue_gray-200 border-solid flex flex-1 flex-col gap-4 h-[533px] md:h-auto items-end justify-start p-2.5 rounded-[23px] w-full">
+                <div className="border border-blue_gray-200 border-solid flex flex-1 flex-col gap-4 h-[533px] md:h-auto items-end justify-start p-2.5 rounded-[23px] w-full">
                   <Img
                     className="h-[265px] sm:h-auto object-cover rounded-[12px] w-full"
-                    src="images/img_placeholder_1.png"
+                    src="images/final-d.jpg"
                     alt="placeholder"
                   />
                   <div className="flex flex-col gap-4 items-start justify-start w-auto">
                     <Text
-                      className="leading-[33.00px] max-w-[323px] md:max-w-full text-gray-900 text-xl"
+                      className="leading-[33.00px] max-w-[323px] md:max-w-full text-slate-100 text-xl"
                       size="txtGilroyBold20"
                     >
-                      How Do You Overcome Imposter Syndrome?
+                     Final Destination
                     </Text>
                     <Text
-                      className="leading-[26.00px] max-w-[323px] md:max-w-full text-base text-gray-900"
+                      className="leading-[26.00px] max-w-[323px] md:max-w-full text-base text-slate-100"
                       size="txtGilroyRegular16"
                     >
-                      The film rolls back the clock through Nike’s past as the
-                      company expands sport for a new generation over the next
-                      half century.
+                     Final Destination is an American horror franchise that includes six films. 
+                     originally written for The X-Files television series, and was distributed by New Line Cinema.
                     </Text>
                   </div>
                   <div className="flex flex-row gap-2 items-center justify-between w-[323px]">
@@ -284,14 +279,14 @@ const DashboardPage = () => {
                         />
                       </div>
                       <Text
-                        className="text-blue_gray-700 text-sm w-auto"
+                        className="text-slate-100 text-sm w-auto"
                         size="txtGilroyMedium14"
                       >
                         Jack Amber
                       </Text>
                     </div>
                     <Text
-                      className="text-blue_gray-700 text-right text-sm w-auto"
+                      className="text-slate-100 text-right text-sm w-auto"
                       size="txtGilroyMedium14"
                     >
                       22nd June, 2022
@@ -301,12 +296,12 @@ const DashboardPage = () => {
               </div>
             </div>
           </div>
-          <div className="absolute bg-white-A700 border-b border-blue_gray-100 border-solid flex md:flex-col flex-row md:gap-10 items-center justify-between p-[17px] right-[0] top-[0] w-4/5">
+          <div className="absolute bg-slate-900 border-b border-blue_gray-100 border-solid flex md:flex-row flex-row md:gap-10 items-center justify-between p-[17px] right-[0] top-[0] w-4/5">
             <div className="flex flex-col items-center justify-start md:ml-[0] ml-[15px] w-[31%] md:w-full">
-              <div className="bg-white-A700 flex flex-row gap-6 items-start justify-start w-auto">
+              <div className="bg-slate-900 flex flex-row gap-6 items-start justify-start w-auto">
                 <div className="flex flex-col items-center justify-start w-auto">
                   <Text
-                    className="common-pointer text-base text-center text-gray-900_01 w-auto"
+                    className="common-pointer text-base text-center text-slate-100 w-auto"
                     size="txtGilroySemiBold16"
                     onClick={() => navigate("/dashboard")}
                   >
@@ -315,23 +310,23 @@ const DashboardPage = () => {
                 </div>
                 <div className="flex flex-col items-center justify-start w-auto">
                   <Text
-                    className="common-pointer text-base text-center text-gray-900_99 w-auto"
+                    className="common-pointer text-base text-center text-slate-100 w-auto"
                     size="txtGilroyMedium16"
-                    onClick={() => navigate("/devtoprofile")}
+                    onClick={() => navigate("/blogpage")}
                   >
-                    Dev.to Profile
+                   About
                   </Text>
                 </div>
                 <Text
-                  className="common-pointer text-base text-center text-gray-900_99 w-auto"
+                  className="common-pointer text-base text-center text-slate-100 w-auto"
                   size="txtGilroyMedium16"
-                  onClick={() => navigate("/mediumprofile")}
+                  onClick={() => navigate("/writeonmedium")}
                 >
-                  Medium Profile
+                 Feedback
                 </Text>
               </div>
             </div>
-            <div className="bg-white-A700 flex flex-row gap-6 items-start justify-start mr-3.5 w-auto">
+            <div className="bg-slate-900 flex flex-row gap-6 items-start justify-start mr-3.5 w-auto">
               <Button
                 className="common-pointer cursor-pointer font-medium h-10 min-w-[161px] text-base text-center"
                 onClick={() => googleSignIn()}
@@ -350,10 +345,10 @@ const DashboardPage = () => {
               </Button>
             </div>
           </div>
-          <div className="absolute bg-white-A700 border-b border-blue_gray-100 border-r border-solid flex flex-col font-opensans gap-[54px] h-[1024px] md:h-auto items-center justify-end left-[0] p-6 sm:px-5 top-[0] w-[300px]">
+          <div className="sidebar absolute bg-slate-900 border-b border-blue_gray-100 border-r border-solid flex flex-col font-opensans gap-[54px] h-[1024px] md:h-auto items-center justify-end left-[0] p-6 sm:px-5 top-[0] w-[300px]">
             <Img
               className="h-[41px] w-[215px]"
-              src="images/img_frame9873.svg"
+              src="images/movieflix-white.svg"
               alt="frame9873"
             />
             <div className="flex flex-col h-[895px] md:h-auto items-start justify-start w-auto">
@@ -361,23 +356,23 @@ const DashboardPage = () => {
                 <div className="flex flex-col items-center justify-start w-full">
                   <div className="flex flex-col gap-2 items-start justify-start w-full">
                     <Text
-                      className="text-base text-blue_gray-900"
+                      className="text-base text-slate-100"
                       size="txtOpenSansRomanSemiBold16"
                     >
-                      Recommended Topics
+                      Recommended Movies
                     </Text>
                     <div className="flex flex-row font-gilroy gap-2 items-center justify-start w-3/4 md:w-full">
                       <Button
                         className="cursor-pointer font-medium h-7 min-w-[87px] rounded-[14px] text-center text-sm"
                         size="xs"
                       >
-                        Ux design
+                        Jhon Wick
                       </Button>
                       <Button
                         className="cursor-pointer font-medium h-7 min-w-[103px] rounded-[14px] text-center text-sm"
                         size="xs"
                       >
-                        Ux Research
+                        Spiderman
                       </Button>
                     </div>
                     <div className="flex flex-row font-gilroy gap-2 items-center justify-start w-[85%] md:w-full">
@@ -385,13 +380,13 @@ const DashboardPage = () => {
                         className="cursor-pointer font-medium h-7 min-w-[125px] rounded-[14px] text-center text-sm"
                         size="xs"
                       >
-                        Design Thinking
+                        After
                       </Button>
                       <Button
                         className="cursor-pointer font-medium h-7 min-w-[90px] rounded-[14px] text-center text-sm"
                         size="xs"
                       >
-                        Front-end
+                       Iron Man
                       </Button>
                     </div>
                     <div className="flex flex-row font-gilroy gap-2 items-center justify-start w-[84%] md:w-full">
@@ -399,13 +394,13 @@ const DashboardPage = () => {
                         className="cursor-pointer font-medium h-7 min-w-[177px] rounded-[14px] text-center text-sm"
                         size="xs"
                       >
-                        Back-end development
+                       Into Tall Grass
                       </Button>
                       <Button
                         className="cursor-pointer font-medium h-7 min-w-[37px] rounded-[14px] text-center text-sm"
                         size="xs"
                       >
-                        UI
+                        PK
                       </Button>
                     </div>
                     <div className="flex flex-row font-gilroy items-center justify-between w-full">
@@ -413,19 +408,19 @@ const DashboardPage = () => {
                         className="cursor-pointer font-medium h-7 min-w-[67px] rounded-[14px] text-center text-sm"
                         size="xs"
                       >
-                        Money
+                        Expandable
                       </Button>
                       <Button
                         className="cursor-pointer font-medium h-7 min-w-[79px] rounded-[14px] text-center text-sm"
                         size="xs"
                       >
-                        Business
+                        Starnger
                       </Button>
                       <Button
                         className="cursor-pointer font-medium h-7 min-w-[101px] rounded-[14px] text-center text-sm"
                         size="xs"
                       >
-                        Productivity
+                        Vampire
                       </Button>
                     </div>
                     <div className="flex flex-row font-gilroy gap-2 items-center justify-start w-[76%] md:w-full">
@@ -433,13 +428,13 @@ const DashboardPage = () => {
                         className="cursor-pointer font-medium h-7 min-w-[97px] rounded-[14px] text-center text-sm"
                         size="xs"
                       >
-                        Psychology
+                        Zombie
                       </Button>
                       <Button
                         className="cursor-pointer font-medium h-7 min-w-[96px] rounded-[14px] text-center text-sm"
                         size="xs"
                       >
-                        Mindfullnes
+                        American Pie
                       </Button>
                     </div>
                     <div className="flex flex-row font-gilroy gap-2 items-center justify-start w-[56%] md:w-full">
@@ -447,13 +442,13 @@ const DashboardPage = () => {
                         className="cursor-pointer font-medium h-7 min-w-[75px] rounded-[14px] text-center text-sm"
                         size="xs"
                       >
-                        Science
+                        Inception
                       </Button>
                       <Button
                         className="cursor-pointer font-medium h-7 min-w-[63px] rounded-[14px] text-center text-sm"
                         size="xs"
                       >
-                        Books
+                        Thor
                       </Button>
                     </div>
                   </div>
@@ -462,12 +457,12 @@ const DashboardPage = () => {
             </div>
           </div>
         </div>
-        <footer className="bg-gray-900_04 flex items-center justify-center md:px-5 w-full">
+        <footer className="bg-slate-900 flex items-center justify-center md:px-5 w-full">
           <div className="flex flex-col gap-6 items-center justify-center ml-[148px] mr-[166px] my-[29px] w-[79%]">
             <div className="flex md:flex-col flex-row md:gap-10 items-start justify-between w-full">
               <Img
-                className="h-[41px] w-[198px]"
-                src="images/img_frame9873_white_a700.svg"
+                className="h-[41px] w-[198px] brandlogo"
+                src="images/movieflix-white.svg"
                 alt="frame9873_One"
               />
               <div className="flex flex-col gap-[15px] items-start justify-start">

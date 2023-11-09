@@ -24,7 +24,7 @@ const BlogPagePage = () => {
               <div className="header-row ">
                 <Img
                   className="h-[41px] w-[215px]"
-                  src="images/img_frame9873.svg"
+                  src="images/movieflix.svg"
                   alt="frame9873"
                 />
                 <div className="mobile-menu">
@@ -37,7 +37,7 @@ const BlogPagePage = () => {
                 <div className="flex flex-row gap-6 items-start justify-start w-auto">
                   <div className="flex flex-col items-center justify-start w-auto">
                     <Text
-                      className="common-pointer text-base text-center text-gray-900_01 w-auto"
+                      className="common-pointer text-base text-center text-gray-900_99 w-auto"
                       size="txtGilroySemiBold16"
                       onClick={() => navigate("/dashboard")}
                     >
@@ -46,45 +46,27 @@ const BlogPagePage = () => {
                   </div>
                   <div className="flex flex-col items-center justify-start w-auto">
                     <Text
-                      className="common-pointer text-base text-center text-gray-900_99 w-auto"
+                      className="common-pointer text-base text-center text-gray-900_01 w-auto"
                       size="txtGilroyMedium16"
-                      onClick={() => navigate("/devtoprofile")}
+                      onClick={() => navigate("/blogpage")}
                     >
-                      Dev.to Profile
+                     About
                     </Text>
                   </div>
                   <Text
                     className="common-pointer text-base text-center text-gray-900_99 w-auto"
                     size="txtGilroyMedium16"
-                    onClick={() => navigate("/mediumprofile")}
+                    onClick={() => navigate("/writeonmedium")}
                   >
-                    Medium Profile
+                    Feedback
                   </Text>
                 </div>
-              </div>
-              <div className="flex flex-row gap-6 sm:hidden items-start justify-start mr-[68px] w-[331px]">
-                <Button
-                  className="common-pointer cursor-pointer font-medium h-10 min-w-[161px] text-base text-center"
-                  onClick={() => googleSignIn()}
-                  shape="round"
-                  color="gray_900_02"
-                >
-                  Write on medium
-                </Button>
-                <Button
-                  className="common-pointer cursor-pointer font-medium h-10 min-w-[146px] text-base text-center"
-                  onClick={() => navigate("/writeondevto")}
-                  shape="round"
-                  color="gray_900_02"
-                >
-                  Write on dev.to
-                </Button>
               </div>
             </div>
           </header>
           <Img
             className="h-[500px] sm:h-auto max-w-[1268px] mt-14 mx-auto object-cover rounded-[20px] w-full"
-            src="images/img_frame9881.png"
+            src="images/movies-2.jpg"
             alt="frame9881"
           />
           <Text
@@ -92,20 +74,20 @@ const BlogPagePage = () => {
             size="txtPublicSansLight24"
           >
             <span className="text-blue_gray-300 font-gilroy text-left font-normal">
-              Category
+              Movies 
             </span>
             <span className="text-black-900 font-publicsans text-left font-light">
               {" "}
             </span>
             <span className="text-blue_gray-900 tracking-[0.12px] font-gilroy text-left font-bold">
-              Writing
+              Live Streaming
             </span>
           </Text>
           <Text
             className="mt-[43px] sm:text-[38px] md:text-[44px] text-[52px] text-blue_gray-900"
             size="txtGilroySemiBold52"
           >
-            How to create a UX Writing portfolio as a beginner
+            How its started on 2014
           </Text>
           <div className="flex sm:flex-col flex-row sm:gap-10 items-center justify-between max-w-[981px] mt-[62px] mx-auto md:px-5 w-full">
             <div className="flex sm:flex-1 flex-row font-gilroy gap-4 items-center justify-between w-[27%] sm:w-full">
@@ -512,7 +494,7 @@ const BlogPagePage = () => {
             <div className="flex md:flex-col flex-row md:gap-5 items-start justify-start max-w-[1125px] mx-auto md:px-5 w-full">
               <Img
                 className="h-[41px] w-[198px]"
-                src="images/img_frame9873_white_a700.svg"
+                src="images/movieflix-white.svg"
                 alt="frame9873_One"
               />
               <div className="flex flex-col gap-[15px] items-start justify-start md:ml-[0] ml-[126px]">
