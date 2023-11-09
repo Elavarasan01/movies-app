@@ -18,8 +18,8 @@ const DashboardPage = () => {
   return (
     <>
       <div className="bg-slate-900 flex flex-col font-gilroy sm:gap-10 md:gap-10 gap-[120px] items-center justify-start mx-auto w-full ">
-        <div className="h-[1286px] md:h-[1724px] sm:h-[3379px] md:px-5 relative w-full">
-          <div className="absolute bg-slate-900 bottom-[0] flex flex-col items-center justify-start p-8 sm:px-5 right-[0] w-4/5">
+        <div className="h-[1286px] md:h-[1724px] sm:h-[2970px] md:px-5 relative w-full">
+          <div className="movie-card absolute bg-slate-900 bottom-[0] flex flex-col items-center justify-start p-8 sm:px-5 right-[0] w-4/5">
             <div className="flex flex-col items-center justify-start mb-[35px] mt-2.5 w-full">
               <div className="md:gap-5 gap-6 grid sm:grid-cols-1 md:grid-cols-2 grid-cols-3 justify-center min-h-[auto] w-full">
                 <div className="bg-slate-900 border md:mt-5 border-blue_gray-200 border-solid flex flex-1 flex-col gap-4 h-[533px] md:h-auto items-end justify-start p-2.5 rounded-[23px] w-full">
@@ -44,7 +44,7 @@ const DashboardPage = () => {
                       half century.
                     </Text>
                   </div>
-                  <div className="flex flex-row gap-2 items-center justify-between w-[323px]">
+                  <div className="movie-footer flex flex-row gap-2 items-center justify-between w-[323px]">
                     <div className="flex flex-row gap-2 items-center justify-start w-auto">
                       <div className="flex flex-col h-14 items-center justify-start w-14">
                         <Img
@@ -89,7 +89,7 @@ const DashboardPage = () => {
                       However, they do away with their restrictions to experience togetherness
                     </Text>
                   </div>
-                  <div className="flex flex-row gap-2 items-center justify-between w-[323px]">
+                  <div className="movie-footer flex flex-row gap-2 items-center justify-between w-[323px]">
                     <div className="flex flex-row gap-2 items-center justify-start w-auto">
                       <div className="flex flex-col h-14 items-center justify-start w-14">
                         <Img
@@ -134,7 +134,7 @@ const DashboardPage = () => {
                      who is trapped in a time loop, teams up with a warrior to save the planet.
                     </Text>
                   </div>
-                  <div className="flex flex-row gap-2 items-center justify-between w-[323px]">
+                  <div className="movie-footer flex flex-row gap-2 items-center justify-between w-[323px]">
                     <div className="flex flex-row gap-2 items-center justify-start w-auto">
                       <div className="flex flex-col h-14 items-center justify-start w-14">
                         <Img
@@ -179,7 +179,7 @@ const DashboardPage = () => {
                       along with a team of researchers, to find a new planet for humans.
                     </Text>
                   </div>
-                  <div className="flex flex-row gap-2 items-center justify-between w-[323px]">
+                  <div className="movie-footer flex flex-row gap-2 items-center justify-between w-[323px]">
                     <div className="flex flex-row gap-2 items-center justify-start w-auto">
                       <div className="flex flex-col h-14 items-center justify-start w-14">
                         <Img
@@ -224,7 +224,7 @@ const DashboardPage = () => {
                      consisting of science-fiction dystopian action adventure films based on The Maze Runner novels by the American author James Dashner.
                     </Text>
                   </div>
-                  <div className="flex flex-row gap-2 items-center justify-between w-[323px]">
+                  <div className="movie-footer flex flex-row gap-2 items-center justify-between w-[323px]">
                     <div className="flex flex-row gap-2 items-center justify-start w-auto">
                       <div className="flex flex-col h-14 items-center justify-start w-14">
                         <Img
@@ -269,7 +269,7 @@ const DashboardPage = () => {
                      originally written for The X-Files television series, and was distributed by New Line Cinema.
                     </Text>
                   </div>
-                  <div className="flex flex-row gap-2 items-center justify-between w-[323px]">
+                  <div className="movie-footer flex flex-row gap-2 items-center justify-between w-[323px]">
                     <div className="flex flex-row gap-2 items-center justify-start w-auto">
                       <div className="flex flex-col h-14 items-center justify-start w-14">
                         <Img
@@ -296,7 +296,7 @@ const DashboardPage = () => {
               </div>
             </div>
           </div>
-          <div className="absolute bg-slate-900 border-b border-blue_gray-100 border-solid flex md:flex-row flex-row md:gap-10 items-center justify-between p-[17px] right-[0] top-[0] w-4/5">
+          <div className="absolute bg-slate-900 border-b border-blue_gray-100 border-solid flex md:flex-row sm:flex-col flex-row md:gap-10 items-center justify-between p-[17px] right-[0] top-[0] w-4/5">
             <div className="flex flex-col items-center justify-start md:ml-[0] ml-[15px] w-[31%] md:w-full">
               <div className="bg-slate-900 flex flex-row gap-6 items-start justify-start w-auto">
                 <div className="flex flex-col items-center justify-start w-auto">
@@ -326,7 +326,7 @@ const DashboardPage = () => {
                 </Text>
               </div>
             </div>
-            <div className="bg-slate-900 flex flex-row gap-6 items-start justify-start mr-3.5 w-auto">
+            <div className="bg-slate-900 flex flex-row gap-6 items-start justify-start mr-3.5 w-auto sm:hidden">
               <Button
                 className="common-pointer cursor-pointer font-medium h-10 min-w-[161px] text-base text-center"
                 onClick={() => googleSignIn()}
@@ -458,7 +458,7 @@ const DashboardPage = () => {
           </div>
         </div>
         <footer className="bg-slate-900 flex items-center justify-center md:px-5 w-full">
-          <div className="flex flex-col gap-6 items-center justify-center ml-[148px] mr-[166px] my-[29px] w-[79%]">
+          <div className="flex flex-col gap-6 sm:m-[0px] items-center justify-center ml-[148px] mr-[166px] my-[29px] w-[79%]">
             <div className="flex md:flex-col flex-row md:gap-10 items-start justify-between w-full">
               <Img
                 className="h-[41px] w-[198px] brandlogo"
