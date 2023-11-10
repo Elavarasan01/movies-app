@@ -8,10 +8,10 @@ const Home = () => {
           <Link to="/dashboard">Movies</Link>
         </li>
         <li>
-          <Link to="/blogpage">About Us</Link>
+          <Link to="/about">About Us</Link>
         </li>
         <li>
-          <Link to="/writeonmedium">Feedback</Link>
+          <Link to="/feedback">Feedback</Link>
         </li>
       </ul>
     </div>

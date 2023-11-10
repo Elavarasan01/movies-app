@@ -5,6 +5,7 @@ import { useNavigate } from "react-router-dom";
 import { useGoogleLogin } from "@react-oauth/google";
 
 import { Button, Img, Text } from "components";
+import { Link } from "react-router-dom";
 
 const DashboardPage = () => {
   const navigate = useNavigate();
@@ -20,7 +21,7 @@ const DashboardPage = () => {
       <div className="bg-slate-900 flex flex-col font-gilroy sm:gap-10 md:gap-10 gap-[120px] items-center justify-start mx-auto w-full ">
         <div className="h-[1286px] md:h-[1724px] sm:h-[2970px] md:px-5 relative w-full">
           <div className="movie-card absolute bg-slate-900 bottom-[0] flex flex-col items-center justify-start p-8 sm:px-5 right-[0] w-4/5">
-            <div className="flex flex-col items-center justify-start mb-[35px] mt-2.5 w-full">
+            <div className="flex flex-col items-center justify-start mb-[35px] mt-11 w-full">
               <div className="md:gap-5 gap-6 grid sm:grid-cols-1 md:grid-cols-2 grid-cols-3 justify-center min-h-[auto] w-full">
                 <div className="bg-slate-900 border md:mt-5 border-blue_gray-200 border-solid flex flex-1 flex-col gap-4 h-[533px] md:h-auto items-end justify-start p-2.5 rounded-[23px] w-full">
                   <Img
@@ -296,8 +297,8 @@ const DashboardPage = () => {
               </div>
             </div>
           </div>
-          <div className="absolute bg-slate-900 border-b border-blue_gray-100 border-solid flex md:flex-row sm:flex-col flex-row md:gap-10 items-center justify-between p-[17px] right-[0] top-[0] w-4/5">
-            <div className="flex flex-col items-center justify-start md:ml-[0] ml-[15px] w-[31%] md:w-full">
+          <div className="absolute bg-slate-900 border-b sm:border-none border-blue_gray-100 border-solid flex md:flex-row sm:flex-col flex-row md:gap-10 items-center justify-between p-[17px] right-[0] top-[0] w-4/5">
+            <div className="flex flex-col items-center justify-start md:ml-[0] ml-[15px] w-[31%] md:w-full nav-head">
               <div className="bg-slate-900 flex flex-row gap-6 items-start justify-start w-auto">
                 <div className="flex flex-col items-center justify-start w-auto">
                   <Text
@@ -312,7 +313,7 @@ const DashboardPage = () => {
                   <Text
                     className="common-pointer text-base text-center text-slate-100 w-auto"
                     size="txtGilroyMedium16"
-                    onClick={() => navigate("/blogpage")}
+                    onClick={() => navigate("/about")}
                   >
                    About
                   </Text>
@@ -320,7 +321,7 @@ const DashboardPage = () => {
                 <Text
                   className="common-pointer text-base text-center text-slate-100 w-auto"
                   size="txtGilroyMedium16"
-                  onClick={() => navigate("/writeonmedium")}
+                  onClick={() => navigate("/feedback")}
                 >
                  Feedback
                 </Text>
@@ -346,11 +347,13 @@ const DashboardPage = () => {
             </div>
           </div>
           <div className="sidebar absolute bg-slate-900 border-b border-blue_gray-100 border-r border-solid flex flex-col font-opensans gap-[54px] h-[1024px] md:h-auto items-center justify-end left-[0] p-6 sm:px-5 top-[0] w-[300px]">
+            <Link to="/dashboard">
             <Img
               className="h-[41px] w-[215px]"
               src="images/movieflix-white.svg"
               alt="frame9873"
             />
+            </Link>
             <div className="flex flex-col h-[895px] md:h-auto items-start justify-start w-auto">
               <div className="flex flex-col items-start justify-start w-auto">
                 <div className="flex flex-col items-center justify-start w-full">
@@ -458,7 +461,7 @@ const DashboardPage = () => {
           </div>
         </div>
         <footer className="bg-slate-900 flex items-center justify-center md:px-5 w-full">
-          <div className="flex flex-col gap-6 sm:m-[0px] items-center justify-center ml-[148px] mr-[166px] my-[29px] w-[79%]">
+          <div className="flex flex-col gap-6 sm:m-[0px] items-center justify-center ml-[148px] mr-[166px] my-[29px] w-[79%]" style={{boxShadow:"0px 0px 14px white",padding:"14px"}}>
             <div className="flex md:flex-col flex-row md:gap-10 items-start justify-between w-full">
               <Img
                 className="h-[41px] w-[198px] brandlogo"

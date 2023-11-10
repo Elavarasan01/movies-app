@@ -5,6 +5,7 @@ import { useNavigate } from "react-router-dom";
 import { useGoogleLogin } from "@react-oauth/google";
 
 import { Button, Img, List, Text } from "components";
+import { Link } from "react-router-dom";
 
 const BlogPagePage = () => {
   const navigate = useNavigate();
@@ -22,11 +23,13 @@ const BlogPagePage = () => {
           <header className="flex flex-col font-gilroy items-center justify-center md:px-5 w-full">
             <div className="border-b border-blue_gray-100 border-solid flex md:flex-col flex-row md:gap-10 items-center justify-between p-[17px] w-full">
               <div className="header-row ">
+              <Link  to="/dashboard">
                 <Img
                   className="h-[41px] w-[215px]"
                   src="images/movieflix.svg"
                   alt="frame9873"
                 />
+                </Link>
                 <div className="mobile-menu">
                   <div></div>
                   <div></div>
@@ -48,7 +51,7 @@ const BlogPagePage = () => {
                     <Text
                       className="common-pointer text-base text-center text-gray-900_01 w-auto"
                       size="txtGilroyMedium16"
-                      onClick={() => navigate("/blogpage")}
+                      onClick={() => navigate("/about")}
                     >
                      About
                     </Text>
@@ -56,7 +59,7 @@ const BlogPagePage = () => {
                   <Text
                     className="common-pointer text-base text-center text-gray-900_99 w-auto"
                     size="txtGilroyMedium16"
-                    onClick={() => navigate("/writeonmedium")}
+                    onClick={() => navigate("/feedback")}
                   >
                     Feedback
                   </Text>
@@ -179,7 +182,7 @@ const BlogPagePage = () => {
               Fate. It protects fools, little children, and ships named
               “Enterprise.”
             </Text>
-            <div className="h-[140px] md:h-[168px] mt-7 relative w-full">
+            <div className="h-[140px] md:h-[168px] sm:h-[405px] mt-7 relative w-full">
               <Text
                 className="leading-[35.00px] m-auto text-blue_gray-700 text-lg w-full"
                 size="txtGilroyMedium18"
@@ -350,13 +353,13 @@ const BlogPagePage = () => {
               className="sm:flex-col flex-row gap-6 grid sm:grid-cols-1 md:grid-cols-2 grid-cols-3 justify-center w-full"
               orientation="horizontal"
             >
-              <div className="bg-white-A700 border border-blue_gray-200 border-solid flex flex-col gap-4 h-[533px] md:h-auto items-end justify-start p-2.5 rounded-[23px] w-[343px]">
+              <div className="bg-white-A700 border border-blue_gray-200 border-solid flex flex-col gap-4 h-[533px] md:h-auto items-end justify-start p-2.5 rounded-[23px] w-[343px] sm:w-[285px]">
                 <Img
                   className="h-[265px] sm:h-auto object-cover rounded-[12px] w-full"
                   src="images/img_placeholder.png"
                   alt="placeholder"
                 />
-                <div className="flex flex-col gap-4 items-start justify-start w-auto">
+                <div className="flex flex-col gap-4 sm:gap-0 items-start justify-start w-auto">
                   <Text
                     className="leading-[33.00px] max-w-[323px] md:max-w-full text-gray-900 text-xl"
                     size="txtGilroyBold20"
@@ -372,7 +375,7 @@ const BlogPagePage = () => {
                     half century.
                   </Text>
                 </div>
-                <div className="flex flex-row gap-2 items-center justify-between w-[323px]">
+                <div className="flex flex-row gap-2 items-center justify-end w-[323px]">
                   <div className="flex flex-row gap-2 items-center justify-start w-auto">
                     <div className="flex flex-col h-14 items-center justify-start w-14">
                       <Img
@@ -396,13 +399,13 @@ const BlogPagePage = () => {
                   </Text>
                 </div>
               </div>
-              <div className="bg-white-A700 border border-blue_gray-200 border-solid flex flex-col gap-4 h-[533px] md:h-auto items-end justify-start p-2.5 rounded-[23px] w-[343px]">
+              <div className="bg-white-A700 border border-blue_gray-200 border-solid flex flex-col gap-4 h-[533px] md:h-auto items-end justify-start p-2.5 rounded-[23px] w-[343px] sm:w-[285px]">
                 <Img
                   className="h-[265px] sm:h-auto object-cover rounded-[12px] w-full"
                   src="images/img_placeholder_265x323.png"
                   alt="placeholder"
                 />
-                <div className="flex flex-col gap-4 items-start justify-start w-auto">
+                <div className="flex flex-col gap-4 sm:gap-0 items-start justify-start w-auto">
                   <Text
                     className="leading-[33.00px] max-w-[323px] md:max-w-full text-gray-900 text-xl"
                     size="txtGilroyBold20"
@@ -418,7 +421,7 @@ const BlogPagePage = () => {
                     half century.
                   </Text>
                 </div>
-                <div className="flex flex-row gap-2 items-center justify-between w-[323px]">
+                <div className="flex flex-row gap-2 items-center justify-end w-[323px]">
                   <div className="flex flex-row gap-2 items-center justify-start w-auto">
                     <div className="flex flex-col h-14 items-center justify-start w-14">
                       <Img
@@ -442,13 +445,13 @@ const BlogPagePage = () => {
                   </Text>
                 </div>
               </div>
-              <div className="bg-white-A700 border border-blue_gray-200 border-solid flex flex-col gap-4 h-[533px] md:h-auto items-end justify-start p-2.5 rounded-[23px] w-[343px]">
+              <div className="bg-white-A700 border border-blue_gray-200 border-solid flex flex-col gap-4 h-[533px] md:h-auto items-end justify-start p-2.5 rounded-[23px] w-[343px] sm:w-[285px]">
                 <Img
                   className="h-[265px] sm:h-auto object-cover rounded-[12px] w-full"
                   src="images/img_placeholder_1.png"
                   alt="placeholder"
                 />
-                <div className="flex flex-col gap-4 items-start justify-start w-auto">
+                <div className="flex flex-col gap-4 sm:gap-0 items-start justify-start w-auto">
                   <Text
                     className="leading-[33.00px] max-w-[323px] md:max-w-full text-gray-900 text-xl"
                     size="txtGilroyBold20"
@@ -464,7 +467,7 @@ const BlogPagePage = () => {
                     half century.
                   </Text>
                 </div>
-                <div className="flex flex-row gap-2 items-center justify-between w-[323px]">
+                <div className="flex flex-row gap-2 items-center justify-end w-[323px]">
                   <div className="flex flex-row gap-2 items-center justify-start w-auto">
                     <div className="flex flex-col h-14 items-center justify-start w-14">
                       <Img

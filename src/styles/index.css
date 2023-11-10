@@ -209,7 +209,7 @@ ul li a{
   }
 }
 
-@media only screen and (min-width: 0px) and (max-width: 320px)  {
+@media only screen and (min-width: 0px) and (max-width: 425px)  {
   .sidebar{
     display: none !important;
   }
@@ -219,5 +219,8 @@ ul li a{
   }
   .movie-footer{
     justify-content: end !important;
+  }
+  .nav-head{
+    margin-left: -32px !important;
   }
 }

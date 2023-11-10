@@ -76,8 +76,6 @@ const WriteonmediumPage = () => {
                     className="bg-transparent border border-blue_gray-100 border-solid font-medium gap-5 h-[251px] p-6 sm:px-5 rounded-lg placeholder:text-blue_gray-300_01 text-blue_gray-300_01 text-left text-xl w-[443px]"
                     name="frame9883"
                     placeholder="Add tags "
-                    name="frame9883"
-                    placeholder="Add tags "
                   ></TextArea>
                 </div>
                 <div className="flex flex-col gap-2 items-start justify-start w-auto sm:w-full">
