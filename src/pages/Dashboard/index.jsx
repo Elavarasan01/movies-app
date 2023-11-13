@@ -22,7 +22,7 @@ const DashboardPage = () => {
         <div className="h-[1286px] md:h-[1724px] sm:h-[2970px] md:px-5 relative w-full">
           <div className="movie-card absolute bg-slate-900 bottom-[0] flex flex-col items-center justify-start p-8 sm:px-5 right-[0] w-4/5">
             <div className="flex flex-col items-center justify-start mb-[35px] mt-11 w-full">
-              <div className="md:gap-5 gap-6 grid sm:grid-cols-1 md:grid-cols-2 grid-cols-3 justify-center min-h-[auto] w-full">
+              <div className="md:gap-2 gap-6 grid sm:grid-cols-1 md:grid-cols-2 grid-cols-3 justify-center min-h-[auto] w-full">
                 <div className="bg-slate-900 border md:mt-5 border-blue_gray-200 border-solid flex flex-1 flex-col gap-4 h-[533px] md:h-auto items-end justify-start p-2.5 rounded-[23px] w-full">
                   <Img
                     className="h-[265px] sm:h-auto object-cover rounded-[12px] w-full"
@@ -71,7 +71,7 @@ const DashboardPage = () => {
                 </div>
                 <div className="bg-slate-900 border border-blue_gray-200 border-solid flex flex-1 flex-col gap-4 h-[533px] md:h-auto items-end justify-start p-2.5 rounded-[23px] w-full">
                   <Img
-                    className="h-[265px] sm:h-auto object-cover rounded-[12px] w-full"
+                    className="h-[265px] md:h-[265px] sm:h-auto object-cover rounded-[12px] w-full"
                     src="images/5-apart.jpg"
                     alt="placeholder"
                   />
@@ -297,7 +297,7 @@ const DashboardPage = () => {
               </div>
             </div>
           </div>
-          <div className="absolute bg-slate-900 border-b sm:border-none border-blue_gray-100 border-solid flex md:flex-row sm:flex-col flex-row md:gap-10 items-center justify-between p-[17px] right-[0] top-[0] w-4/5">
+          <div className="absolute bg-slate-900 border-b sm:border-none border-blue_gray-100 border-solid flex md:flex-row sm:flex-col flex-row md:gap-10 items-center justify-between p-[17px] md:p-[5px] right-[0] top-[0] w-4/5">
             <div className="flex flex-col items-center justify-start md:ml-[0] ml-[15px] w-[31%] md:w-full nav-head">
               <div className="bg-slate-900 flex flex-row gap-6 items-start justify-start w-auto">
                 <div className="flex flex-col items-center justify-start w-auto">
@@ -357,7 +357,7 @@ const DashboardPage = () => {
             <div className="flex flex-col h-[895px] md:h-auto items-start justify-start w-auto">
               <div className="flex flex-col items-start justify-start w-auto">
                 <div className="flex flex-col items-center justify-start w-full">
-                  <div className="flex flex-col gap-2 items-start justify-start w-full">
+                  <div className="sidebar-movies flex flex-col gap-2 items-start justify-start w-full">
                     <Text
                       className="text-base text-slate-100"
                       size="txtOpenSansRomanSemiBold16"
@@ -406,7 +406,7 @@ const DashboardPage = () => {
                         PK
                       </Button>
                     </div>
-                    <div className="flex flex-row font-gilroy items-center justify-between w-full">
+                    <div className="flex flex-row font-gilroy items-center gap-2 justify-between w-full">
                       <Button
                         className="cursor-pointer font-medium h-7 min-w-[67px] rounded-[14px] text-center text-sm"
                         size="xs"
@@ -600,7 +600,7 @@ const DashboardPage = () => {
               className="text-center text-sm text-white-A700"
               size="txtGilroyRegular14"
             >
-              2022 Writista all rights reserved
+              2023 Movieflix all rights reserved
             </Text>
           </div>
         </footer>
