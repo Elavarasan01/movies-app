@@ -5,7 +5,7 @@ const Home = () => {
     <div className="elliot-navigation">
       <ul style={{display:"flex"}}>
         <li>
-          <Link to="/dashboard">Movies</Link>
+          <Link to="/">Movies</Link>
         </li>
         <li>
           <Link to="/about">About Us</Link>

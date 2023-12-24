@@ -23,7 +23,7 @@ const BlogPagePage = () => {
           <header className="flex flex-col font-gilroy items-center justify-center md:px-5 w-full">
             <div className="border-b border-blue_gray-100 border-solid flex md:flex-col flex-row md:gap-10 items-center justify-between p-[17px] w-full">
               <div className="header-row ">
-              <Link  to="/dashboard">
+              <Link  to="/">
                 <Img
                   className="h-[41px] w-[215px]"
                   src="images/movieflix.svg"
@@ -42,7 +42,7 @@ const BlogPagePage = () => {
                     <Text
                       className="common-pointer text-base text-center text-gray-900_99 w-auto"
                       size="txtGilroySemiBold16"
-                      onClick={() => navigate("/dashboard")}
+                      onClick={() => navigate("/")}
                     >
                       Dashboard
                     </Text>

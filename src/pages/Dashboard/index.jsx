@@ -304,7 +304,7 @@ const DashboardPage = () => {
                   <Text
                     className="common-pointer text-base text-center text-slate-100 w-auto"
                     size="txtGilroySemiBold16"
-                    onClick={() => navigate("/dashboard")}
+                    onClick={() => navigate("/")}
                   >
                     Dashboard
                   </Text>
@@ -347,7 +347,7 @@ const DashboardPage = () => {
             </div>
           </div>
           <div className="sidebar absolute bg-slate-900 border-b border-blue_gray-100 border-r border-solid flex flex-col font-opensans gap-[54px] h-[1024px] md:h-auto items-center justify-end left-[0] p-6 sm:px-5 top-[0] w-[300px]">
-            <Link to="/dashboard">
+            <Link to="/">
             <Img
               className="h-[41px] w-[215px]"
               src="images/movieflix-white.svg"
