@@ -616,7 +616,7 @@ const BlogPagePage = () => {
               className="md:ml-[0] ml-[120px] text-center text-sm text-white-A700"
               size="txtGilroyRegular14"
             >
-              2023 Movieflix all rights reserved
+              2024 Movieflix all rights reserved
             </Text>
           </div>
         </div>

@@ -369,13 +369,13 @@ const DashboardPage = () => {
                         className="cursor-pointer font-medium h-7 min-w-[87px] rounded-[14px] text-center text-sm"
                         size="xs"
                       >
-                        Jhon Wick
+                        <a href="https://en.wikipedia.org/wiki/John_Wick">Jhon Wick</a>
                       </Button>
                       <Button
                         className="cursor-pointer font-medium h-7 min-w-[103px] rounded-[14px] text-center text-sm"
                         size="xs"
                       >
-                        Spiderman
+                        <a href="https://en.wikipedia.org/wiki/Spider-Man">Spiderman</a> 
                       </Button>
                     </div>
                     <div className="flex flex-row font-gilroy gap-2 items-center justify-start w-[85%] md:w-full">
@@ -383,13 +383,13 @@ const DashboardPage = () => {
                         className="cursor-pointer font-medium h-7 min-w-[125px] rounded-[14px] text-center text-sm"
                         size="xs"
                       >
-                        After
+                       <a href="https://en.wikipedia.org/wiki/After_(2019_film)">After</a>  
                       </Button>
                       <Button
                         className="cursor-pointer font-medium h-7 min-w-[90px] rounded-[14px] text-center text-sm"
                         size="xs"
                       >
-                       Iron Man
+                      <a href="https://en.wikipedia.org/wiki/Iron_Man">Iron Man</a>  
                       </Button>
                     </div>
                     <div className="flex flex-row font-gilroy gap-2 items-center justify-start w-[84%] md:w-full">
@@ -397,13 +397,13 @@ const DashboardPage = () => {
                         className="cursor-pointer font-medium h-7 min-w-[177px] rounded-[14px] text-center text-sm"
                         size="xs"
                       >
-                       Into Tall Grass
+                      <a href="https://en.wikipedia.org/wiki/In_the_Tall_Grass_(film)">In the Tall Grass</a>  
                       </Button>
                       <Button
                         className="cursor-pointer font-medium h-7 min-w-[37px] rounded-[14px] text-center text-sm"
                         size="xs"
                       >
-                        PK
+                      <a href="https://en.wikipedia.org/wiki/PK_(film)">PK</a>
                       </Button>
                     </div>
                     <div className="flex flex-row font-gilroy items-center gap-2 justify-between w-full">
@@ -411,19 +411,19 @@ const DashboardPage = () => {
                         className="cursor-pointer font-medium h-7 min-w-[67px] rounded-[14px] text-center text-sm"
                         size="xs"
                       >
-                        Expandable
+                       <a href="https://en.wikipedia.org/wiki/The_Expandables">Expandable</a>  
                       </Button>
                       <Button
                         className="cursor-pointer font-medium h-7 min-w-[79px] rounded-[14px] text-center text-sm"
                         size="xs"
                       >
-                        Starnger
+                       <a href="https://en.wikipedia.org/wiki/Stranger">Starnger</a>  
                       </Button>
                       <Button
                         className="cursor-pointer font-medium h-7 min-w-[101px] rounded-[14px] text-center text-sm"
                         size="xs"
                       >
-                        Vampire
+                      <a href="https://en.wikipedia.org/wiki/Vampire">Vampire</a>   
                       </Button>
                     </div>
                     <div className="flex flex-row font-gilroy gap-2 items-center justify-start w-[76%] md:w-full">
@@ -431,13 +431,13 @@ const DashboardPage = () => {
                         className="cursor-pointer font-medium h-7 min-w-[97px] rounded-[14px] text-center text-sm"
                         size="xs"
                       >
-                        Zombie
+                       <a href="https://en.wikipedia.org/wiki/Zombie">Zombie</a>  
                       </Button>
                       <Button
                         className="cursor-pointer font-medium h-7 min-w-[96px] rounded-[14px] text-center text-sm"
                         size="xs"
                       >
-                        American Pie
+                       <a href="https://en.wikipedia.org/wiki/American_Pie_(song)">American Pie</a>  
                       </Button>
                     </div>
                     <div className="flex flex-row font-gilroy gap-2 items-center justify-start w-[56%] md:w-full">
@@ -445,13 +445,13 @@ const DashboardPage = () => {
                         className="cursor-pointer font-medium h-7 min-w-[75px] rounded-[14px] text-center text-sm"
                         size="xs"
                       >
-                        Inception
+                       <a href="https://en.wikipedia.org/wiki/Inception">Inception</a>  
                       </Button>
                       <Button
                         className="cursor-pointer font-medium h-7 min-w-[63px] rounded-[14px] text-center text-sm"
                         size="xs"
                       >
-                        Thor
+                       <a href="https://en.wikipedia.org/wiki/Thor">Thor</a>  
                       </Button>
                     </div>
                   </div>
@@ -600,7 +600,7 @@ const DashboardPage = () => {
               className="text-center text-sm text-white-A700"
               size="txtGilroyRegular14"
             >
-              2023 Movieflix all rights reserved
+              2024 Movieflix all rights reserved
             </Text>
           </div>
         </footer>
